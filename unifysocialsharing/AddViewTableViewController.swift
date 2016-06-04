@@ -7,11 +7,15 @@
 //
 
 import UIKit
-import SBCameraViewController
+import CocoaBloc_Camera
 
 class AddViewTableViewController: UITableViewController {
 
     @IBAction func addPictureAction(sender: AnyObject) {
+        //let cameraManager = CameraManager()
+        //cameraManager.addPreviewLayerToView(self.cameraView)
+        var cameraController = CameraManager();
+        
         
         /*
         var cameraController = ;
