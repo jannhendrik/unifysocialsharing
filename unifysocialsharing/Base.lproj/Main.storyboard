@@ -25,6 +25,10 @@
                                     <segue destination="E1h-V4-9i4" kind="presentation" identifier="detailSegue" id="795-o9-4fR"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="prominent" showsSearchResultsButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEy-Rn-fH4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -53,7 +57,7 @@
                             <tableViewSection id="b3F-LW-X2G">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="jPO-GA-ePF">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
+                                        <rect key="frame" x="0.0" y="64" width="600" height="129"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jPO-GA-ePF" id="Efg-VK-8Bb">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="128.5"/>
@@ -105,7 +109,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="epB-sA-fcv">
-                                        <rect key="frame" x="0.0" y="129" width="600" height="129"/>
+                                        <rect key="frame" x="0.0" y="193" width="600" height="129"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="epB-sA-fcv" id="lSR-PM-uZD">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="128.5"/>
@@ -154,7 +158,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="CTV-Cm-9PY">
-                                        <rect key="frame" x="0.0" y="258" width="600" height="129"/>
+                                        <rect key="frame" x="0.0" y="322" width="600" height="129"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CTV-Cm-9PY" id="rcP-MW-446">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="128.5"/>
@@ -203,7 +207,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="kuI-DE-8Ez">
-                                        <rect key="frame" x="0.0" y="387" width="600" height="129"/>
+                                        <rect key="frame" x="0.0" y="451" width="600" height="129"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kuI-DE-8Ez" id="o74-wy-4sN">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="128.5"/>
@@ -274,10 +278,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Section-1" id="Qmv-eh-YS9">
+                            <tableViewSection headerTitle="Create new Leco:" id="Qmv-eh-YS9">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="41" id="ddU-5m-uJm">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="41"/>
+                                        <rect key="frame" x="0.0" y="92" width="600" height="41"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ddU-5m-uJm" id="Npf-Vm-Peb">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="40.5"/>
@@ -298,7 +302,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="2il-Qm-R83">
-                                        <rect key="frame" x="0.0" y="69" width="600" height="119"/>
+                                        <rect key="frame" x="0.0" y="133" width="600" height="119"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2il-Qm-R83" id="YpM-Ct-jqi">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="118.5"/>
@@ -322,7 +326,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="P2I-aG-O4z">
-                                        <rect key="frame" x="0.0" y="188" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="252" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P2I-aG-O4z" id="OAD-7U-yp1">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -332,6 +336,12 @@
                                                     <rect key="frame" x="457" y="7" width="135" height="30"/>
                                                     <state key="normal" title="Add Current Adress"/>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Torgustraße 13, Berlin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmR-BF-R2o">
+                                                    <rect key="frame" x="-106" y="11" width="167" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="4UE-BX-Ux4" firstAttribute="centerY" secondItem="OAD-7U-yp1" secondAttribute="centerY" id="QYQ-Fb-9eG"/>
@@ -350,7 +360,7 @@
                     <navigationItem key="navigationItem" id="0dk-BW-ah1">
                         <barButtonItem key="rightBarButtonItem" title="Home" id="e9y-4F-EkQ">
                             <connections>
-                                <segue destination="meC-eQ-jkj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TcB-Yu-W9H"/>
+                                <segue destination="3Yr-pA-uoQ" kind="presentation" id="t8z-so-o2w"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -392,7 +402,7 @@
                     <navigationItem key="navigationItem" id="gVc-7t-aRq">
                         <barButtonItem key="rightBarButtonItem" title="Home" id="wIm-AK-geR">
                             <connections>
-                                <segue destination="meC-eQ-jkj" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="4xk-gV-l10"/>
+                                <segue destination="3Yr-pA-uoQ" kind="presentation" id="8vR-Go-mVA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -459,6 +469,6 @@
         <image name="question" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TcB-Yu-W9H"/>
+        <segue reference="t8z-so-o2w"/>
     </inferredMetricsTieBreakers>
 </document>

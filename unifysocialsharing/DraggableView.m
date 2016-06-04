@@ -49,12 +49,25 @@
         self.backgroundColor = [UIColor whiteColor];
 #warning placeholder stuff, replace with card-specific information }
         
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 180, 250, 25)];
+        label.text = @"Video Projector";
+        label.textColor = [UIColor blackColor];
         
+        UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(15,210,250,25)];
+        label1.text = @"by Tom";
+        label1.textColor = [UIColor darkGrayColor];
+        
+        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(15,240, 250,25)];
+        label2.text = @"#sharing #video #projector";
+        label2.textColor = [UIColor blueColor];
         
         panGestureRecognizer = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(beingDragged:)];
         
         [self addGestureRecognizer:panGestureRecognizer];
-        [self addSubview:information];
+        [self addSubview:label];
+        [self addSubview:label1];
+        [self addSubview:label2];
+        //[self addSubview:label];
         [self addSubview:imageView];
         
         overlayView = [[OverlayView alloc]initWithFrame:CGRectMake(self.frame.size.width/2-100, 0, 100, 100)];

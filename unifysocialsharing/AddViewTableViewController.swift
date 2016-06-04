@@ -9,13 +9,18 @@
 import UIKit
 import CocoaBloc_Camera
 
-class AddViewTableViewController: UITableViewController {
+class AddViewTableViewController: UITableViewController,  SBCaptureViewControllerDelegate{
+    @IBOutlet weak var imageViewOutlet: UIImageView!
 
     @IBAction func addPictureAction(sender: AnyObject) {
         //let cameraManager = CameraManager()
         //cameraManager.addPreviewLayerToView(self.cameraView)
-        var cameraController = CameraManager();
+        let cameraController = SBCameraViewController.init(reviewOptions: SBReviewViewOptions.ShowOfficialButton, initialCaptureType: SBCaptureType.Photo);
         
+        cameraController.captureDelegate = self;
+        
+        //self.presentedViewController(cameraController);
+        self.presentViewController(cameraController, animated: true, completion: nil);
         
         /*
         var cameraController = ;
@@ -28,6 +33,15 @@ class AddViewTableViewController: UITableViewController {
         
         // ===> 3. Present the `SBCameraViewController`.
         [self presentViewController:cameraController animated:YES completion:nil];*/
+    }
+    
+    func cameraControllerCancelled(controller: SBCaptureViewController!) {
+        return;
+    }
+    func reviewController(controller: SBReviewController!, acceptedAsset asset: SBAsset!) {
+      //  var signal = asset.fetchImage().;
+        //signal. { image in imageViewOutlet.image = image}
+        self.dismissViewControllerAnimated(true, completion: nil);
     }
     override func viewDidLoad() {
         super.viewDidLoad()
