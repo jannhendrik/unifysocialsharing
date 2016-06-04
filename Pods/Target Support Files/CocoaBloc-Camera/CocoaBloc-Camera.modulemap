@@ -1,0 +1,6 @@
+framework module CocoaBloc_Camera {
+  umbrella header "CocoaBloc-Camera-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADAE9F68F8441275451F36C /* Pods_unifysocialsharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A2F98D876396B1F9B89A4 /* Pods_unifysocialsharingTests.framework */; };
+		31BCCC3BA09E6BF35B3B8E65 /* Pods_unifysocialsharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E731EC49A3DFEF62C755A620 /* Pods_unifysocialsharingUITests.framework */; };
+		D404EBDA1D02C83E006331EA /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D404EBD91D02C83E006331EA /* CategoryView.swift */; };
+		D404EBDC1D02DD4E006331EA /* AddViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D404EBDB1D02DD4E006331EA /* AddViewTableViewController.swift */; };
+		D404EBDE1D02DD59006331EA /* DetailViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D404EBDD1D02DD59006331EA /* DetailViewTableViewController.swift */; };
+		D4918C891D0219D300216C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4918C881D0219D300216C88 /* AppDelegate.swift */; };
+		D4918C8B1D0219D300216C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4918C8A1D0219D300216C88 /* ViewController.swift */; };
+		D4918C8E1D0219D300216C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4918C8C1D0219D300216C88 /* Main.storyboard */; };
+		D4918C901D0219D300216C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4918C8F1D0219D300216C88 /* Assets.xcassets */; };
+		D4918C931D0219D300216C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4918C911D0219D300216C88 /* LaunchScreen.storyboard */; };
+		D4918C9E1D0219D300216C88 /* unifysocialsharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4918C9D1D0219D300216C88 /* unifysocialsharingTests.swift */; };
+		D4918CA91D0219D300216C88 /* unifysocialsharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4918CA81D0219D300216C88 /* unifysocialsharingUITests.swift */; };
+		D4918CBE1D02280900216C88 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4918CBB1D02280900216C88 /* DraggableView.m */; };
+		D4918CBF1D02280900216C88 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = D4918CBD1D02280900216C88 /* DraggableViewBackground.m */; };
+		D4918CC21D02285600216C88 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4918CC11D02285600216C88 /* OverlayView.m */; };
+		D4918CC51D0228DB00216C88 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4918CC41D0228DB00216C88 /* SwipeViewController.m */; };
+		D4F204701D02FE530065D446 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4F2046F1D02FE530065D446 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4918C9A1D0219D300216C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4918C7D1D0219D300216C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4918C841D0219D300216C88;
+			remoteInfo = unifysocialsharing;
+		};
+		D4918CA51D0219D300216C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4918C7D1D0219D300216C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4918C841D0219D300216C88;
+			remoteInfo = unifysocialsharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137BF66A90C19485149B162F /* Pods-unifysocialsharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharingTests/Pods-unifysocialsharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B72C240B15675A700A7EBC1 /* Pods_unifysocialsharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unifysocialsharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E09748454EC3A0E711FBB80 /* Pods-unifysocialsharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharing/Pods-unifysocialsharing.release.xcconfig"; sourceTree = "<group>"; };
+		5E363B31E82F6C29E746DF53 /* Pods-unifysocialsharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharingUITests/Pods-unifysocialsharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		987107AC968713BB725E63F7 /* Pods-unifysocialsharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharing/Pods-unifysocialsharing.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FE5F5B303EBE89D49B49F6 /* Pods-unifysocialsharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharingUITests/Pods-unifysocialsharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD638CF2DA0C42958DE2C45F /* Pods-unifysocialsharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifysocialsharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unifysocialsharingTests/Pods-unifysocialsharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D404EBD91D02C83E006331EA /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		D404EBDB1D02DD4E006331EA /* AddViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewTableViewController.swift; sourceTree = "<group>"; };
+		D404EBDD1D02DD59006331EA /* DetailViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewTableViewController.swift; sourceTree = "<group>"; };
+		D4918C851D0219D300216C88 /* unifysocialsharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unifysocialsharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4918C881D0219D300216C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4918C8A1D0219D300216C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4918C8D1D0219D300216C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4918C8F1D0219D300216C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4918C921D0219D300216C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4918C941D0219D300216C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4918C991D0219D300216C88 /* unifysocialsharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unifysocialsharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4918C9D1D0219D300216C88 /* unifysocialsharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unifysocialsharingTests.swift; sourceTree = "<group>"; };
+		D4918C9F1D0219D300216C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4918CA41D0219D300216C88 /* unifysocialsharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unifysocialsharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4918CA81D0219D300216C88 /* unifysocialsharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unifysocialsharingUITests.swift; sourceTree = "<group>"; };
+		D4918CAA1D0219D300216C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4918CB91D02280900216C88 /* unifysocialsharing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "unifysocialsharing-Bridging-Header.h"; sourceTree = "<group>"; };
+		D4918CBA1D02280900216C88 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		D4918CBB1D02280900216C88 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		D4918CBC1D02280900216C88 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		D4918CBD1D02280900216C88 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		D4918CC01D02285600216C88 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		D4918CC11D02285600216C88 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		D4918CC31D0228DB00216C88 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		D4918CC41D0228DB00216C88 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		D4F2046F1D02FE530065D446 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4F204711D02FF220065D446 /* CocoaBloc_Camera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaBloc_Camera.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/CocoaBloc-Camera/CocoaBloc_Camera.framework"; sourceTree = "<group>"; };
+		D4F204721D02FF220065D446 /* CocoaBlocUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaBlocUI.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/CocoaBloc-UI/CocoaBlocUI.framework"; sourceTree = "<group>"; };
+		D4F204751D02FF300065D446 /* Pods_unifysocialsharingTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_unifysocialsharingTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_unifysocialsharingTests.framework"; sourceTree = "<group>"; };
+		D4F204761D02FF300065D446 /* Pods_unifysocialsharingUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_unifysocialsharingUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_unifysocialsharingUITests.framework"; sourceTree = "<group>"; };
+		D4F204771D02FF300065D446 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/pop/pop.framework"; sourceTree = "<group>"; };
+		D4F204781D02FF300065D446 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework"; sourceTree = "<group>"; };
+		D4F204791D02FF300065D446 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		D4F2047F1D02FF4E0065D446 /* Pods_unifysocialsharing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_unifysocialsharing.framework; path = "../../../Library/Developer/Xcode/DerivedData/unifysocialsharing-ebfdzsmdopfmubacewahzegpovvo/Build/Products/Debug-iphonesimulator/Pods_unifysocialsharing.framework"; sourceTree = "<group>"; };
+		D67A2F98D876396B1F9B89A4 /* Pods_unifysocialsharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unifysocialsharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E731EC49A3DFEF62C755A620 /* Pods_unifysocialsharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unifysocialsharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4918C821D0219D300216C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918C961D0219D300216C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADAE9F68F8441275451F36C /* Pods_unifysocialsharingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918CA11D0219D300216C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BCCC3BA09E6BF35B3B8E65 /* Pods_unifysocialsharingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4277BA3739F63912D85E09F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				987107AC968713BB725E63F7 /* Pods-unifysocialsharing.debug.xcconfig */,
+				3E09748454EC3A0E711FBB80 /* Pods-unifysocialsharing.release.xcconfig */,
+				CD638CF2DA0C42958DE2C45F /* Pods-unifysocialsharingTests.debug.xcconfig */,
+				137BF66A90C19485149B162F /* Pods-unifysocialsharingTests.release.xcconfig */,
+				A4FE5F5B303EBE89D49B49F6 /* Pods-unifysocialsharingUITests.debug.xcconfig */,
+				5E363B31E82F6C29E746DF53 /* Pods-unifysocialsharingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4918C7C1D0219D300216C88 = {
+			isa = PBXGroup;
+			children = (
+				D4918C871D0219D300216C88 /* unifysocialsharing */,
+				D4918C9C1D0219D300216C88 /* unifysocialsharingTests */,
+				D4918CA71D0219D300216C88 /* unifysocialsharingUITests */,
+				D4918C861D0219D300216C88 /* Products */,
+				4277BA3739F63912D85E09F3 /* Pods */,
+				EC7C810A9D6A1A749C00F9D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4918C861D0219D300216C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4918C851D0219D300216C88 /* unifysocialsharing.app */,
+				D4918C991D0219D300216C88 /* unifysocialsharingTests.xctest */,
+				D4918CA41D0219D300216C88 /* unifysocialsharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4918C871D0219D300216C88 /* unifysocialsharing */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2046F1D02FE530065D446 /* GoogleService-Info.plist */,
+				D4F2046A1D02FB400065D446 /* services */,
+				D4918CC61D022B9700216C88 /* assets */,
+				D4918CC31D0228DB00216C88 /* SwipeViewController.h */,
+				D4918CC41D0228DB00216C88 /* SwipeViewController.m */,
+				D4918CB81D0227F200216C88 /* vendor */,
+				D4918C881D0219D300216C88 /* AppDelegate.swift */,
+				D4918C8A1D0219D300216C88 /* ViewController.swift */,
+				D4918C8C1D0219D300216C88 /* Main.storyboard */,
+				D4918C8F1D0219D300216C88 /* Assets.xcassets */,
+				D4918C911D0219D300216C88 /* LaunchScreen.storyboard */,
+				D4918C941D0219D300216C88 /* Info.plist */,
+				D404EBD91D02C83E006331EA /* CategoryView.swift */,
+				D404EBDB1D02DD4E006331EA /* AddViewTableViewController.swift */,
+				D404EBDD1D02DD59006331EA /* DetailViewTableViewController.swift */,
+			);
+			path = unifysocialsharing;
+			sourceTree = "<group>";
+		};
+		D4918C9C1D0219D300216C88 /* unifysocialsharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4918C9D1D0219D300216C88 /* unifysocialsharingTests.swift */,
+				D4918C9F1D0219D300216C88 /* Info.plist */,
+			);
+			path = unifysocialsharingTests;
+			sourceTree = "<group>";
+		};
+		D4918CA71D0219D300216C88 /* unifysocialsharingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4918CA81D0219D300216C88 /* unifysocialsharingUITests.swift */,
+				D4918CAA1D0219D300216C88 /* Info.plist */,
+			);
+			path = unifysocialsharingUITests;
+			sourceTree = "<group>";
+		};
+		D4918CB81D0227F200216C88 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D4918CC01D02285600216C88 /* OverlayView.h */,
+				D4918CC11D02285600216C88 /* OverlayView.m */,
+				D4918CBA1D02280900216C88 /* DraggableView.h */,
+				D4918CBB1D02280900216C88 /* DraggableView.m */,
+				D4918CBC1D02280900216C88 /* DraggableViewBackground.h */,
+				D4918CBD1D02280900216C88 /* DraggableViewBackground.m */,
+				D4918CB91D02280900216C88 /* unifysocialsharing-Bridging-Header.h */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		D4918CC61D022B9700216C88 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D4918CC71D022BA200216C88 /* Images */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		D4918CC71D022BA200216C88 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D4F2046A1D02FB400065D446 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		EC7C810A9D6A1A749C00F9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2047F1D02FF4E0065D446 /* Pods_unifysocialsharing.framework */,
+				D4F204751D02FF300065D446 /* Pods_unifysocialsharingTests.framework */,
+				D4F204761D02FF300065D446 /* Pods_unifysocialsharingUITests.framework */,
+				D4F204771D02FF300065D446 /* pop.framework */,
+				D4F204781D02FF300065D446 /* PureLayout.framework */,
+				D4F204791D02FF300065D446 /* ReactiveCocoa.framework */,
+				D4F204711D02FF220065D446 /* CocoaBloc_Camera.framework */,
+				D4F204721D02FF220065D446 /* CocoaBlocUI.framework */,
+				3B72C240B15675A700A7EBC1 /* Pods_unifysocialsharing.framework */,
+				D67A2F98D876396B1F9B89A4 /* Pods_unifysocialsharingTests.framework */,
+				E731EC49A3DFEF62C755A620 /* Pods_unifysocialsharingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4918C841D0219D300216C88 /* unifysocialsharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4918CAD1D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharing" */;
+			buildPhases = (
+				4E83F140AFC52ED2C526209A /* [CP] Check Pods Manifest.lock */,
+				D4918C811D0219D300216C88 /* Sources */,
+				D4918C821D0219D300216C88 /* Frameworks */,
+				D4918C831D0219D300216C88 /* Resources */,
+				D4609BD6F600220523BA06F5 /* [CP] Embed Pods Frameworks */,
+				D3E1C76C9E04675E12D1EF0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unifysocialsharing;
+			productName = unifysocialsharing;
+			productReference = D4918C851D0219D300216C88 /* unifysocialsharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4918C981D0219D300216C88 /* unifysocialsharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4918CB01D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharingTests" */;
+			buildPhases = (
+				1331430493B7F0B30595C9B9 /* [CP] Check Pods Manifest.lock */,
+				D4918C951D0219D300216C88 /* Sources */,
+				D4918C961D0219D300216C88 /* Frameworks */,
+				D4918C971D0219D300216C88 /* Resources */,
+				9AC4F97E29312D99DD7B79AE /* [CP] Embed Pods Frameworks */,
+				14276D68803BEC07A971680C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4918C9B1D0219D300216C88 /* PBXTargetDependency */,
+			);
+			name = unifysocialsharingTests;
+			productName = unifysocialsharingTests;
+			productReference = D4918C991D0219D300216C88 /* unifysocialsharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4918CA31D0219D300216C88 /* unifysocialsharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4918CB31D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharingUITests" */;
+			buildPhases = (
+				A8A6EFB22F6F95C6C7C5BB6C /* [CP] Check Pods Manifest.lock */,
+				D4918CA01D0219D300216C88 /* Sources */,
+				D4918CA11D0219D300216C88 /* Frameworks */,
+				D4918CA21D0219D300216C88 /* Resources */,
+				1D09C44D9750B9E167822B20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4918CA61D0219D300216C88 /* PBXTargetDependency */,
+			);
+			name = unifysocialsharingUITests;
+			productName = unifysocialsharingUITests;
+			productReference = D4918CA41D0219D300216C88 /* unifysocialsharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4918C7D1D0219D300216C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jannhendrik;
+				TargetAttributes = {
+					D4918C841D0219D300216C88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6XUFQLG3DD;
+					};
+					D4918C981D0219D300216C88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4918C841D0219D300216C88;
+					};
+					D4918CA31D0219D300216C88 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D4918C841D0219D300216C88;
+					};
+				};
+			};
+			buildConfigurationList = D4918C801D0219D300216C88 /* Build configuration list for PBXProject "unifysocialsharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4918C7C1D0219D300216C88;
+			productRefGroup = D4918C861D0219D300216C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4918C841D0219D300216C88 /* unifysocialsharing */,
+				D4918C981D0219D300216C88 /* unifysocialsharingTests */,
+				D4918CA31D0219D300216C88 /* unifysocialsharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4918C831D0219D300216C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4918C931D0219D300216C88 /* LaunchScreen.storyboard in Resources */,
+				D4F204701D02FE530065D446 /* GoogleService-Info.plist in Resources */,
+				D4918C901D0219D300216C88 /* Assets.xcassets in Resources */,
+				D4918C8E1D0219D300216C88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918C971D0219D300216C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918CA21D0219D300216C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1331430493B7F0B30595C9B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14276D68803BEC07A971680C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unifysocialsharingTests/Pods-unifysocialsharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D09C44D9750B9E167822B20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unifysocialsharingUITests/Pods-unifysocialsharingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E83F140AFC52ED2C526209A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC4F97E29312D99DD7B79AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unifysocialsharingTests/Pods-unifysocialsharingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A6EFB22F6F95C6C7C5BB6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E1C76C9E04675E12D1EF0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unifysocialsharing/Pods-unifysocialsharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4609BD6F600220523BA06F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unifysocialsharing/Pods-unifysocialsharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4918C811D0219D300216C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4918CC51D0228DB00216C88 /* SwipeViewController.m in Sources */,
+				D404EBDA1D02C83E006331EA /* CategoryView.swift in Sources */,
+				D4918CBF1D02280900216C88 /* DraggableViewBackground.m in Sources */,
+				D4918CC21D02285600216C88 /* OverlayView.m in Sources */,
+				D404EBDC1D02DD4E006331EA /* AddViewTableViewController.swift in Sources */,
+				D4918CBE1D02280900216C88 /* DraggableView.m in Sources */,
+				D404EBDE1D02DD59006331EA /* DetailViewTableViewController.swift in Sources */,
+				D4918C8B1D0219D300216C88 /* ViewController.swift in Sources */,
+				D4918C891D0219D300216C88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918C951D0219D300216C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4918C9E1D0219D300216C88 /* unifysocialsharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4918CA01D0219D300216C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4918CA91D0219D300216C88 /* unifysocialsharingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4918C9B1D0219D300216C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4918C841D0219D300216C88 /* unifysocialsharing */;
+			targetProxy = D4918C9A1D0219D300216C88 /* PBXContainerItemProxy */;
+		};
+		D4918CA61D0219D300216C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4918C841D0219D300216C88 /* unifysocialsharing */;
+			targetProxy = D4918CA51D0219D300216C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4918C8C1D0219D300216C88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4918C8D1D0219D300216C88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4918C911D0219D300216C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4918C921D0219D300216C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4918CAB1D0219D300216C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4918CAC1D0219D300216C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4918CAE1D0219D300216C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987107AC968713BB725E63F7 /* Pods-unifysocialsharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = unifysocialsharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "unifysocialsharing/unifysocialsharing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4918CAF1D0219D300216C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E09748454EC3A0E711FBB80 /* Pods-unifysocialsharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = unifysocialsharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "unifysocialsharing/unifysocialsharing-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D4918CB11D0219D300216C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD638CF2DA0C42958DE2C45F /* Pods-unifysocialsharingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = unifysocialsharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unifysocialsharing.app/unifysocialsharing";
+			};
+			name = Debug;
+		};
+		D4918CB21D0219D300216C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137BF66A90C19485149B162F /* Pods-unifysocialsharingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = unifysocialsharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unifysocialsharing.app/unifysocialsharing";
+			};
+			name = Release;
+		};
+		D4918CB41D0219D300216C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FE5F5B303EBE89D49B49F6 /* Pods-unifysocialsharingUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = unifysocialsharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = unifysocialsharing;
+			};
+			name = Debug;
+		};
+		D4918CB51D0219D300216C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E363B31E82F6C29E746DF53 /* Pods-unifysocialsharingUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = unifysocialsharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.jannhendrik.unifysocialsharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = unifysocialsharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4918C801D0219D300216C88 /* Build configuration list for PBXProject "unifysocialsharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4918CAB1D0219D300216C88 /* Debug */,
+				D4918CAC1D0219D300216C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4918CAD1D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4918CAE1D0219D300216C88 /* Debug */,
+				D4918CAF1D0219D300216C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4918CB01D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4918CB11D0219D300216C88 /* Debug */,
+				D4918CB21D0219D300216C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4918CB31D0219D300216C88 /* Build configuration list for PBXNativeTarget "unifysocialsharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4918CB41D0219D300216C88 /* Debug */,
+				D4918CB51D0219D300216C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4918C7D1D0219D300216C88 /* Project object */;
+}

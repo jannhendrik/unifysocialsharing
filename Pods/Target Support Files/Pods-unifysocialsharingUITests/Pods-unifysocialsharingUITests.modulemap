@@ -1,0 +1,6 @@
+framework module Pods_unifysocialsharingUITests {
+  umbrella header "Pods-unifysocialsharingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
